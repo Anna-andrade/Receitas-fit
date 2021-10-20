@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB08B3232720846E007088E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08B3222720846E007088E3 /* AppDelegate.swift */; };
+		DB08B3252720846E007088E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08B3242720846E007088E3 /* SceneDelegate.swift */; };
+		DB08B3272720846E007088E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08B3262720846E007088E3 /* ViewController.swift */; };
+		DB08B32A2720846E007088E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB08B3282720846E007088E3 /* Main.storyboard */; };
+		DB08B32C27208471007088E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB08B32B27208471007088E3 /* Assets.xcassets */; };
+		DB08B32F27208471007088E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB08B32D27208471007088E3 /* LaunchScreen.storyboard */; };
+		DB08B33A27208471007088E3 /* Receitas_fitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08B33927208471007088E3 /* Receitas_fitTests.swift */; };
+		DB08B34427208471007088E3 /* Receitas_fitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08B34327208471007088E3 /* Receitas_fitUITests.swift */; };
+		DB08B34627208471007088E3 /* Receitas_fitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08B34527208471007088E3 /* Receitas_fitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB08B33627208471007088E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB08B3172720846E007088E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB08B31E2720846E007088E3;
+			remoteInfo = "Receitas fit";
+		};
+		DB08B34027208471007088E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB08B3172720846E007088E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB08B31E2720846E007088E3;
+			remoteInfo = "Receitas fit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB08B31F2720846E007088E3 /* Receitas fit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Receitas fit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB08B3222720846E007088E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB08B3242720846E007088E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DB08B3262720846E007088E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB08B3292720846E007088E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB08B32B27208471007088E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB08B32E27208471007088E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB08B33027208471007088E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB08B33527208471007088E3 /* Receitas fitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Receitas fitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB08B33927208471007088E3 /* Receitas_fitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receitas_fitTests.swift; sourceTree = "<group>"; };
+		DB08B33F27208471007088E3 /* Receitas fitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Receitas fitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB08B34327208471007088E3 /* Receitas_fitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receitas_fitUITests.swift; sourceTree = "<group>"; };
+		DB08B34527208471007088E3 /* Receitas_fitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receitas_fitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB08B31C2720846E007088E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB08B33227208471007088E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB08B33C27208471007088E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB08B3162720846E007088E3 = {
+			isa = PBXGroup;
+			children = (
+				DB08B3212720846E007088E3 /* Receitas fit */,
+				DB08B33827208471007088E3 /* Receitas fitTests */,
+				DB08B34227208471007088E3 /* Receitas fitUITests */,
+				DB08B3202720846E007088E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB08B3202720846E007088E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB08B31F2720846E007088E3 /* Receitas fit.app */,
+				DB08B33527208471007088E3 /* Receitas fitTests.xctest */,
+				DB08B33F27208471007088E3 /* Receitas fitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB08B3212720846E007088E3 /* Receitas fit */ = {
+			isa = PBXGroup;
+			children = (
+				DB08B3222720846E007088E3 /* AppDelegate.swift */,
+				DB08B3242720846E007088E3 /* SceneDelegate.swift */,
+				DB08B3262720846E007088E3 /* ViewController.swift */,
+				DB08B3282720846E007088E3 /* Main.storyboard */,
+				DB08B32B27208471007088E3 /* Assets.xcassets */,
+				DB08B32D27208471007088E3 /* LaunchScreen.storyboard */,
+				DB08B33027208471007088E3 /* Info.plist */,
+			);
+			path = "Receitas fit";
+			sourceTree = "<group>";
+		};
+		DB08B33827208471007088E3 /* Receitas fitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB08B33927208471007088E3 /* Receitas_fitTests.swift */,
+			);
+			path = "Receitas fitTests";
+			sourceTree = "<group>";
+		};
+		DB08B34227208471007088E3 /* Receitas fitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB08B34327208471007088E3 /* Receitas_fitUITests.swift */,
+				DB08B34527208471007088E3 /* Receitas_fitUITestsLaunchTests.swift */,
+			);
+			path = "Receitas fitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB08B31E2720846E007088E3 /* Receitas fit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB08B34927208471007088E3 /* Build configuration list for PBXNativeTarget "Receitas fit" */;
+			buildPhases = (
+				DB08B31B2720846E007088E3 /* Sources */,
+				DB08B31C2720846E007088E3 /* Frameworks */,
+				DB08B31D2720846E007088E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Receitas fit";
+			productName = "Receitas fit";
+			productReference = DB08B31F2720846E007088E3 /* Receitas fit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB08B33427208471007088E3 /* Receitas fitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB08B34C27208471007088E3 /* Build configuration list for PBXNativeTarget "Receitas fitTests" */;
+			buildPhases = (
+				DB08B33127208471007088E3 /* Sources */,
+				DB08B33227208471007088E3 /* Frameworks */,
+				DB08B33327208471007088E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB08B33727208471007088E3 /* PBXTargetDependency */,
+			);
+			name = "Receitas fitTests";
+			productName = "Receitas fitTests";
+			productReference = DB08B33527208471007088E3 /* Receitas fitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB08B33E27208471007088E3 /* Receitas fitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB08B34F27208471007088E3 /* Build configuration list for PBXNativeTarget "Receitas fitUITests" */;
+			buildPhases = (
+				DB08B33B27208471007088E3 /* Sources */,
+				DB08B33C27208471007088E3 /* Frameworks */,
+				DB08B33D27208471007088E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB08B34127208471007088E3 /* PBXTargetDependency */,
+			);
+			name = "Receitas fitUITests";
+			productName = "Receitas fitUITests";
+			productReference = DB08B33F27208471007088E3 /* Receitas fitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB08B3172720846E007088E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DB08B31E2720846E007088E3 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DB08B33427208471007088E3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DB08B31E2720846E007088E3;
+					};
+					DB08B33E27208471007088E3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DB08B31E2720846E007088E3;
+					};
+				};
+			};
+			buildConfigurationList = DB08B31A2720846E007088E3 /* Build configuration list for PBXProject "Receitas fit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB08B3162720846E007088E3;
+			productRefGroup = DB08B3202720846E007088E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB08B31E2720846E007088E3 /* Receitas fit */,
+				DB08B33427208471007088E3 /* Receitas fitTests */,
+				DB08B33E27208471007088E3 /* Receitas fitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB08B31D2720846E007088E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB08B32F27208471007088E3 /* LaunchScreen.storyboard in Resources */,
+				DB08B32C27208471007088E3 /* Assets.xcassets in Resources */,
+				DB08B32A2720846E007088E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB08B33327208471007088E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB08B33D27208471007088E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB08B31B2720846E007088E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB08B3272720846E007088E3 /* ViewController.swift in Sources */,
+				DB08B3232720846E007088E3 /* AppDelegate.swift in Sources */,
+				DB08B3252720846E007088E3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB08B33127208471007088E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB08B33A27208471007088E3 /* Receitas_fitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB08B33B27208471007088E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB08B34627208471007088E3 /* Receitas_fitUITestsLaunchTests.swift in Sources */,
+				DB08B34427208471007088E3 /* Receitas_fitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB08B33727208471007088E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB08B31E2720846E007088E3 /* Receitas fit */;
+			targetProxy = DB08B33627208471007088E3 /* PBXContainerItemProxy */;
+		};
+		DB08B34127208471007088E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB08B31E2720846E007088E3 /* Receitas fit */;
+			targetProxy = DB08B34027208471007088E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB08B3282720846E007088E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB08B3292720846E007088E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB08B32D27208471007088E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB08B32E27208471007088E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB08B34727208471007088E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB08B34827208471007088E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB08B34A27208471007088E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YJHS8SK8R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Receitas fit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anna.Andrade.Receitas-fit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB08B34B27208471007088E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YJHS8SK8R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Receitas fit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anna.Andrade.Receitas-fit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB08B34D27208471007088E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YJHS8SK8R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anna.Andrade.Receitas-fitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Receitas fit.app/Receitas fit";
+			};
+			name = Debug;
+		};
+		DB08B34E27208471007088E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YJHS8SK8R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anna.Andrade.Receitas-fitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Receitas fit.app/Receitas fit";
+			};
+			name = Release;
+		};
+		DB08B35027208471007088E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YJHS8SK8R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anna.Andrade.Receitas-fitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Receitas fit";
+			};
+			name = Debug;
+		};
+		DB08B35127208471007088E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YJHS8SK8R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anna.Andrade.Receitas-fitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Receitas fit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB08B31A2720846E007088E3 /* Build configuration list for PBXProject "Receitas fit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB08B34727208471007088E3 /* Debug */,
+				DB08B34827208471007088E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB08B34927208471007088E3 /* Build configuration list for PBXNativeTarget "Receitas fit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB08B34A27208471007088E3 /* Debug */,
+				DB08B34B27208471007088E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB08B34C27208471007088E3 /* Build configuration list for PBXNativeTarget "Receitas fitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB08B34D27208471007088E3 /* Debug */,
+				DB08B34E27208471007088E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB08B34F27208471007088E3 /* Build configuration list for PBXNativeTarget "Receitas fitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB08B35027208471007088E3 /* Debug */,
+				DB08B35127208471007088E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB08B3172720846E007088E3 /* Project object */;
+}
