@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2140D2CF27211058006F8CE3 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2140D2CE27211058006F8CE3 /* CategoryCollectionViewCell.swift */; };
+		2177C9AB272186EB00B49AF5 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2177C9AA272186EB00B49AF5 /* CategoryCollectionViewCell.xib */; };
+		2177C9B02721A36F00B49AF5 /* RecentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2177C9AE2721A36F00B49AF5 /* RecentCollectionViewCell.swift */; };
+		2177C9B12721A36F00B49AF5 /* RecentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2177C9AF2721A36F00B49AF5 /* RecentCollectionViewCell.xib */; };
 		DB08B3232720846E007088E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08B3222720846E007088E3 /* AppDelegate.swift */; };
 		DB08B3252720846E007088E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08B3242720846E007088E3 /* SceneDelegate.swift */; };
 		DB08B3272720846E007088E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08B3262720846E007088E3 /* ViewController.swift */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2140D2CE27211058006F8CE3 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		2177C9AA272186EB00B49AF5 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		2177C9AE2721A36F00B49AF5 /* RecentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentCollectionViewCell.swift; sourceTree = "<group>"; };
+		2177C9AF2721A36F00B49AF5 /* RecentCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentCollectionViewCell.xib; sourceTree = "<group>"; };
 		DB08B31F2720846E007088E3 /* Receitas fit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Receitas fit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB08B3222720846E007088E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB08B3242720846E007088E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,10 +110,14 @@
 				DB08B3222720846E007088E3 /* AppDelegate.swift */,
 				DB08B3242720846E007088E3 /* SceneDelegate.swift */,
 				DB08B3262720846E007088E3 /* ViewController.swift */,
+				2140D2CE27211058006F8CE3 /* CategoryCollectionViewCell.swift */,
+				2177C9AA272186EB00B49AF5 /* CategoryCollectionViewCell.xib */,
 				DB08B3282720846E007088E3 /* Main.storyboard */,
 				DB08B32B27208471007088E3 /* Assets.xcassets */,
 				DB08B32D27208471007088E3 /* LaunchScreen.storyboard */,
 				DB08B33027208471007088E3 /* Info.plist */,
+				2177C9AE2721A36F00B49AF5 /* RecentCollectionViewCell.swift */,
+				2177C9AF2721A36F00B49AF5 /* RecentCollectionViewCell.xib */,
 			);
 			path = "Receitas fit";
 			sourceTree = "<group>";
@@ -231,6 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2177C9B12721A36F00B49AF5 /* RecentCollectionViewCell.xib in Resources */,
+				2177C9AB272186EB00B49AF5 /* CategoryCollectionViewCell.xib in Resources */,
 				DB08B32F27208471007088E3 /* LaunchScreen.storyboard in Resources */,
 				DB08B32C27208471007088E3 /* Assets.xcassets in Resources */,
 				DB08B32A2720846E007088E3 /* Main.storyboard in Resources */,
@@ -258,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2140D2CF27211058006F8CE3 /* CategoryCollectionViewCell.swift in Sources */,
 				DB08B3272720846E007088E3 /* ViewController.swift in Sources */,
+				2177C9B02721A36F00B49AF5 /* RecentCollectionViewCell.swift in Sources */,
 				DB08B3232720846E007088E3 /* AppDelegate.swift in Sources */,
 				DB08B3252720846E007088E3 /* SceneDelegate.swift in Sources */,
 			);
@@ -439,7 +455,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YJHS8SK8R5;
+				DEVELOPMENT_TEAM = QMPGVXKJVA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Receitas fit/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -467,7 +483,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YJHS8SK8R5;
+				DEVELOPMENT_TEAM = QMPGVXKJVA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Receitas fit/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
